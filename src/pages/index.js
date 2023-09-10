@@ -30,7 +30,7 @@ export default function Home() {
 
       </Head>
       <div>
-<ReactPlayer src="video/homevideo.mp4"/>
+<ReactPlayer src="video/homevideo.mp4" width="70%" />
 
 </div>
       {/* <div className={styles.slider} id="player">
