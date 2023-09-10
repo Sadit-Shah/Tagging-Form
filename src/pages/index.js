@@ -29,13 +29,10 @@ export default function Home() {
 
 
       </Head>
-      <div>
-<ReactPlayer src="video/homevideo.mp4" width="70%" />
-
-</div>
-      {/* <div className={styles.slider} id="player">
+      
+       <div className={styles.slider} id="player">
        <iframe id="ytplayer" type="text/html" width="100%" height="100%"
-          src="https://www.youtube.com/embed/FuKsVeREwiw?playlist=FuKsVeREwiw&amp;loop=1&amp;autoplay=1&amp;mute=1&amp;controls=0&amp;modestbranding=1"
+          src="https://www.youtube.com/watch?v=1SiUArkp0dU&amp;loop=1&amp;autoplay=1&amp;mute=1&amp;controls=0&amp;modestbranding=1"
   frameBorder="0" allowFullScreen></iframe> 
 
 
