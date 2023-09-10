@@ -37,7 +37,7 @@ export default function Home() {
 
 
 
-      </div>   */}
+      </div>
 
       <div data-aos="fade-up" className={styles.pdsection}>
         <div className={styles.pdheading}>
