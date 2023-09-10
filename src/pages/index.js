@@ -29,15 +29,18 @@ export default function Home() {
 
 
       </Head>
-      
-      <div className={styles.slider} id="player">
-       {/* <iframe id="ytplayer" type="text/html" width="100%" height="100%"
-          src="https://www.youtube.com/embed/FuKsVeREwiw?playlist=FuKsVeREwiw&amp;loop=1&amp;autoplay=1&amp;mute=1&amp;controls=0&amp;modestbranding=1"
-  frameBorder="0" allowFullScreen></iframe> */}
-
+      <div>
 <ReactPlayer url='https://www.youtube.com/watch?v=LXb3EKWsInQ' />
 
-      </div>
+</div>
+      {/* <div className={styles.slider} id="player">
+       <iframe id="ytplayer" type="text/html" width="100%" height="100%"
+          src="https://www.youtube.com/embed/FuKsVeREwiw?playlist=FuKsVeREwiw&amp;loop=1&amp;autoplay=1&amp;mute=1&amp;controls=0&amp;modestbranding=1"
+  frameBorder="0" allowFullScreen></iframe> 
+
+
+
+      </div>   */}
 
       <div data-aos="fade-up" className={styles.pdsection}>
         <div className={styles.pdheading}>
