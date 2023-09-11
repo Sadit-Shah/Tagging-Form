@@ -31,10 +31,16 @@ export default function Home() {
       </Head>
       
        <div className={styles.slider} id="player">
-       <iframe id="ytplayer" type="text/html" width="100%" height="100%"
-				src="https://www.youtube-nocookie.com/embed/1SiUArkp0dU?si=J3EURPGKmKSqkvkD&amp;loop=1&amp;autoplay=1&amp;mute=1&amp;controls=0&amp;modestbranding=1" 	
+       {/*   <iframe id="ytplayer" type="text/html" width="100%" height="100%"
+				src="https://www.youtube-nocookie.com/embed/1SiUArkp0dU?si=J3EURPGKmKSqkvkD&amp;loop=1&amp;autoplay=1&amp;mute=0&amp;controls=0&amp;modestbranding=1" 	
 				frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-				allowfullscreen></iframe>
+  allowfullscreen></iframe>  */}
+
+  
+<iframe width="100%" height="100%"
+src="https://www.youtube.com/embed/1SiUArkp0dU?si=sWltl3cuvoOboNQd&amp;
+controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; 
+autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
