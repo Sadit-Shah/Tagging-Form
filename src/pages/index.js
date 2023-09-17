@@ -30,17 +30,16 @@ export default function Home() {
 
       </Head>
       
-       <div className={styles.slider} id="player">
+       {/*<div className={styles.slider} id="player">
        <iframe id="ytplayer" type="text/html" width="100%" height="100%"
 				src="https://www.youtube-nocookie.com/embed/1SiUArkp0dU?si=J3EURPGKmKSqkvkD&amp;
         loop=0&amp;  autoplay=0&amp;     mute=1&amp;    controls=0&amp;   modestbranding=0" 	
 				frameborder="0" allow="accelerometer; autoplay; loop; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-  allowfullscreen></iframe> </div>
+  allowfullscreen></iframe> </div>*/}
 
-  
-
-
-
+<div className={styles.slider} id="player">  
+<iframe width="1327" height="650" src="https://www.youtube.com/embed/1SiUArkp0dU" title="" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
       
 
