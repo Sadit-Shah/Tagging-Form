@@ -1,9 +1,8 @@
-import packagescss from './packages.module.scss';
-import Packagecard from '@/components/packagecard/packagecard';
-export default function Packages() {
+
+export default function Aboutus() {
     return (
         <>
-            <div className={packagescss.packagescontainer}>
+            <div className="">
               <Packagecard />
               <Packagecard />
               <Packagecard />
