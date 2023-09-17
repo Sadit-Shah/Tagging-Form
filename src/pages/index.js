@@ -38,7 +38,7 @@ export default function Home() {
   allowfullscreen></iframe> </div>*/}
 
 <div className={styles.slider} id="player">  
-<iframe width="1327" height="650" src="https://www.youtube.com/embed/1SiUArkp0dU" title="" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="1327" height="650" src="https://www.youtube.com/embed/1SiUArkp0dU&amp;" frameborder= "0&amp;" allow="accelerometer; autoplay=1&amp; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
       
