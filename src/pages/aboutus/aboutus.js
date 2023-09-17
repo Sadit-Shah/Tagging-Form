@@ -1,4 +1,6 @@
-export default function () {
+
+
+export default function aboutus () {
     return <>
     
     <section className="section">
