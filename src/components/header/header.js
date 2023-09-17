@@ -28,7 +28,7 @@ export default function Header() {
             <Link href="/packages/packages"><li>Packages</li></Link>
             <li>Gallery</li>
             <li>Contact</li>
-            <Link href="/packages/packages"><li>ABOUT US</li></Link>
+            <Link href="/aboutus/aboutus"><li>ABOUT US</li></Link>
             <li>Account</li>
           </ul>
           <input type="button" className={headercss.btncall} value="Call +91-9958299985" />
