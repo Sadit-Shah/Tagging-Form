@@ -24,11 +24,11 @@ export default function Header() {
         </div>
         <div className={`${headercss.navbar} ${sideMenu ? `${headercss.showMenu}` : ""}`}>
           <ul>
-          <Link href="/"><li>Home</li></Link>
+            <Link href="/"><li>Home</li></Link>
             <Link href="/packages/packages"><li>Packages</li></Link>
             <li>Gallery</li>
             <li>Contact</li>
-            <Link href="/aboutus/about"><li>About Us</li></Link>
+            <Link href="/aboutus/aboutus"><li>About Us</li></Link>
             <li>Account</li>
           </ul>
           <input type="button" className={headercss.btncall} value="Call +91-9958299985" />
