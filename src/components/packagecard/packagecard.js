@@ -24,7 +24,6 @@ export default function Packagecard() {
             <div className={packagecardcss.carddescription}>
                 <h3><a href="/jewelsofkashmir5n6d">Crystals Of Kashmir</a></h3>
             </div>
-
             <div className={packagecardcss.location}>
                 <ul>
                     <li>
@@ -37,10 +36,8 @@ export default function Packagecard() {
             <div className={packagecardcss.divider}>
                 <hr></hr>
             </div>
-
-            
-                <div className={packagecardcss.cardbottom}>
-                     <div className={packagecardcss.from}>
+            <div className={packagecardcss.cardbottom}>
+                 <div className={packagecardcss.from}>
                         <p>From</p>
                         <h6>Rs. 17,400</h6>
                     </div>
@@ -57,7 +54,7 @@ export default function Packagecard() {
                         </a>
                     </div>
                     
-                </div>
+            </div>
             
             {/*<div>
                 
