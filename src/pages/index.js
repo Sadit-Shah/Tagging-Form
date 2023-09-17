@@ -37,8 +37,9 @@ export default function Home() {
 				frameborder="0" allow="accelerometer; autoplay; loop; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
   allowfullscreen></iframe> </div>*/}
 
-    <div className={styles.slider}>  
-      <iframe width="1327" height="650" src="https://www.youtube.com/embed/1SiUArkp0dU&amp;" frameborder= "0&amp;" allow="accelerometer; autoplay=1&amp; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div className={styles.slider} id="player">  
+      <iframe width="1327" height="650" src="https://www.youtube.com/embed/1SiUArkp0dU&amp;" 
+      frameborder= "0&amp;" allow="accelerometer; autoplay=1&amp; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
       

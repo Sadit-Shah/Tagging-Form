@@ -1,4 +1,8 @@
 export default function () {
-    return <>{/* nothing */}</>;
+    return <>
+    
+      HELLO WELCOM TO OPEN
+    </>;
+    
   }
   
