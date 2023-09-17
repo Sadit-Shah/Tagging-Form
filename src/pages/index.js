@@ -33,15 +33,15 @@ export default function Home() {
        <div className={styles.slider} id="player">
        <iframe id="ytplayer" type="text/html" width="100%" height="100%"
 				src="https://www.youtube-nocookie.com/embed/1SiUArkp0dU?si=J3EURPGKmKSqkvkD&amp;loop=1&amp;autoplay=1&amp;mute=0&amp;controls=0&amp;modestbranding=1" 	
-				frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-  allowfullscreen></iframe>  
+				frameborder="0" allow="accelerometer; autoplay; loop; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen></iframe> </div>
 
   
 
 
 
 
-      </div>
+      
 
       <div data-aos="fade-up" className={styles.pdsection}>
         <div className={styles.pdheading}>
