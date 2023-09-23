@@ -8,9 +8,9 @@
     @media (max-width:$md) {
         margin-top:0px;
     }
-    margin: 1px auto;
-    margin-top:100px;
-    width: 98%;
+    // margin: 1px auto;
+    // margin-top:100px;
+    // width: 98%;
     height: 650px;
 
 }
@@ -21,7 +21,7 @@
     }
 
     width: 100%;
-    padding: 60px;
+    padding: 60px 30px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -74,8 +74,8 @@
             }
 
             border-radius: 5px;
-            width: 32%;
-            height: 360px;
+            width: 24%;
+            height: 300px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -107,7 +107,7 @@
                     border-radius: 5px;
                     cursor: pointer;
                     width: 100px;
-                    height: 40px;
+                    height: 30px;
                     font-weight: bold;
                 }
             }

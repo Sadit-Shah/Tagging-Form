@@ -6,6 +6,7 @@ import Aos from 'aos'
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import ReactPlayer from 'react-player'
+import Header from '@/components/header/header';
 
 
 export default function Home() {
@@ -31,11 +32,23 @@ export default function Home() {
       </Head>
       
        <div className={styles.slider} id="player">
-       <iframe id="ytplayer" type="text/html" width="100%" height="100%"
-				src="https://www.youtube-nocookie.com/embed/1SiUArkp0dU?si=J3EURPGKmKSqkvkD&amp;
+       <iframe id="ytplayer" type="text/html" width="100%" height="100%" 
+       src="https://www.youtube.com/embed/qgJqE7-YEl0; 
+       loop=0; autoplay=; mute=true; controls=0; modestbranding=0" 
+       frameborder="0"></iframe>
+
+       {/* <iframe id="ytplayer" type="text/html" width="100%" height="100%"
+				src="https://www.youtube.com/watch?v=qgJqE7-YEl0&amp;
         loop=0&amp;  autoplay=0&amp;     mute=1&amp;    controls=0&amp;   modestbranding=0" 	
 				frameborder="0" allow="accelerometer; autoplay; loop; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-  allowfullscreen></iframe> </div>
+  allowfullscreen></iframe>  */}
+ {/* <iframe width="100%" height="100%" src="https://www.youtube.com/watch?v=qgJqE7-YEl0 
+loop=0&amp;  autoplay=1&amp;     mute=1&amp;    controls=0&amp;   modestbranding=0"  
+ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+ </iframe> */}
+{/* <iframe width="789" height="444" src="https://www.youtube.com/embed/qgJqE7-YEl0" title="Different shades of Autumn in Jammu &amp; Kashmir. We bet you&#39;ve never see Autumn like this!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+
+  </div>
 
     {/*<div className={styles.slider} id="player">  
       <iframe width="1327" height="650" src="https://www.youtube.com/embed/1SiUArkp0dU&amp;" 
@@ -75,7 +88,7 @@ export default function Home() {
           <div data-aos="fade-right" className={styles.pdcard}>
             <img src="images/srinagar.jpg" alt="" width="100%" height="290px" />
             <div className={styles.desc}>
-              <span>Sonmarg</span>
+              <span>Sonamarg</span>
               <input type="button" className={styles.btnknowmore} value="Know More" />
             </div>
 
