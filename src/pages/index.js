@@ -53,7 +53,7 @@ export default function Home() {
           <div data-aos="fade-left" className={styles.pdcard}>
             <img src="images/gulmarg.jpg" alt="" width="100%" height="300px" />
             <div className={styles.desc}>
-              <span>Gulmarg</span>
+              <span>Srinagar</span>
               <input type="button" className={styles.btnknowmore} value="Know More" />
             </div>
           </div>
@@ -67,11 +67,20 @@ export default function Home() {
           <div data-aos="fade-right" className={styles.pdcard}>
             <img src="images/srinagar.jpg" alt="" width="100%" height="290px" />
             <div className={styles.desc}>
-              <span>Srinagar</span>
+              <span>Gulmarg</span>
               <input type="button" className={styles.btnknowmore} value="Know More" />
             </div>
 
           </div>
+          <div data-aos="fade-right" className={styles.pdcard}>
+            <img src="images/srinagar.jpg" alt="" width="100%" height="290px" />
+            <div className={styles.desc}>
+              <span>Sonmarg</span>
+              <input type="button" className={styles.btnknowmore} value="Know More" />
+            </div>
+
+          </div>
+
         </div>
       </div>
 
