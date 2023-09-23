@@ -25,7 +25,7 @@ export default function Header() {
         <div className={`${headercss.navbar} ${sideMenu ? `${headercss.showMenu}` : ""}`}>
           <ul>
             <Link href="/"><li>Home</li></Link>
-            <Link href="/packages/packages"><li>Packages</li></Link>
+           <li>Packages</li></Link>
             <li>Gallery</li>
             <li>Contact</li>
             <Link href="/aboutus/aboutus"><li>ABOUT US</li></Link>

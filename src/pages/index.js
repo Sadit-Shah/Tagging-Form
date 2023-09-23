@@ -100,7 +100,9 @@ export default function Home() {
             <p className={styles.mb50}>Our Services Are Ideal for Individuals, Couples, Families and Groups.
             </p>
             <div className={styles.bydbtn}>
-              <input type="button" className={styles.byd} value="Book Your Destination" />
+            <Link href="/packages/packages"><input type="button" className={styles.byd} value="Book Your Destination" /> 
+            </Link>
+              
             </div>
           </div>
         </div>
