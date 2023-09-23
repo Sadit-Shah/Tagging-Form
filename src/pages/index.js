@@ -55,7 +55,7 @@ export default function Home() {
             <div className={styles.desc}>
               <span>Srinagar</span>
               <input type="button" className={styles.btnknowmore} value="Know More" />
-            </div>
+            </div>  
           </div>
           <div data-aos="fade-up" className={styles.pdcard}>
             <img src="images/pahalgham.jpg" alt="" width="100%" height="300px" />
