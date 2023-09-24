@@ -8,6 +8,10 @@
          width: 100%;
          padding: 0px 0px 10px 10px;
     }
+    @media (max-width:$md) {
+        margin-top:0px;
+        background-color: #fff;
+    }
     position: absolute;
     // position: fixed;
     top:0;
@@ -141,6 +145,7 @@
         @media (max-width: $md) {
             display: block;
             padding-top: 15px;
+            color: #000;
         }
         cursor: pointer;
         padding-right: 20px;
