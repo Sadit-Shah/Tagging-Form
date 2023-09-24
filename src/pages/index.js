@@ -48,7 +48,7 @@ export default function Home() {
       </div>
 
 
-      <div data-aos="fade-up" className={styles.pdsection}>
+      {/* <div data-aos="fade-up" className={styles.pdsection}>
         <div className={styles.pdheading}>
           <span className={styles.h1}>Take a look at Our</span>
           <span className={styles.h5}>Most Popular Destinations</span>
@@ -86,9 +86,9 @@ export default function Home() {
           </div>
 
         </div>
-      </div>
+      </div> */}
 
-      <div className={styles.abtcont}>
+      {/* <div className={styles.abtcont}>
         <img data-aos="fade-left" src="images/palne.jpeg" />
         <div data-aos="fade-up" className={styles.habt}>
           <div className={styles.abtitle}>
@@ -109,7 +109,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+
+      
       <Slider />
     </>
 
