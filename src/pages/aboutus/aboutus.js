@@ -27,7 +27,11 @@ export default function aboutus () {
         </div> 
 
 </div>*/}
-   
+    <div>
+            <h1 class="text-center font-normal">About Us</h1>
+    </div>
+
+
     </>
 
   }
