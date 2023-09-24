@@ -71,7 +71,7 @@ export default function Home() {
           <div data-aos="fade-up" className={styles.pdcard}>
             <img src="images/srinagar.jpg" alt="" width="100%" height="290px" />
             <div className={styles.desc}>
-              <span>Dachgham</span>
+              <span>Gulmarg</span>
               <input type="button" className={styles.btnknowmore} value="Know More" />
             </div>
 
