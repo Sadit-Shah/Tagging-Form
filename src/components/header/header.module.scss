@@ -1,13 +1,13 @@
 @import '../../styles/constants.scss';
 
 .header {
-    // @media (max-width:$md) {
-    //     position: fixed;
-    //     top:0;
-    //     left:0;
-    //     width: 100%;
-    //     padding: 0px 0px 10px 10px;
-    // }
+     @media (max-width:$sm) {
+         position: fixed;
+         top:0;
+         left:0;
+         width: 100%;
+         padding: 0px 0px 10px 10px;
+    }
     position: absolute;
     // position: fixed;
     top:0;
@@ -146,6 +146,7 @@
         padding-right: 20px;
         font-size: 30px;
         display: none;
+        color: #fff;
     }
     .showMenu {
         top: 100px;
