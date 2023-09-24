@@ -2,7 +2,7 @@
 
 export default function aboutus () {
     return <>
-    <div className="aboutus">
+   {/* <div className="aboutus">
     <h1 class="text-center font-normal">ABOUT US</h1>
         <div className="contactform">
 
@@ -26,7 +26,7 @@ export default function aboutus () {
         <div className="about">
         </div> 
 
-    </div>
+</div>*/}
    
     </>
 
