@@ -34,7 +34,7 @@ export default function Home() {
       <div className={styles.slider} id="player">  
            
       <iframe id="ytplayer" type="text/html" width="100%" height="100%"
-    src="https://www.youtube.com/embed/M7lc1UVf-VE?&amp;autoplay=0&amp;controls=0&amp;disablekb=1&amp;fs=0&amp;loop=1
+    src="https://www.youtube.com/embed/M7lc1UVf-VE?&amp;autoplay=1&amp;controls=0&amp;disablekb=1&amp;fs=0&amp;loop=1
     &amp;modestbranding=1&amp;color=white&amp;iv_load_policy=3"
               frameborder="0" allowfullscreen></iframe>
 
