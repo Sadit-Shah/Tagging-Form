@@ -35,10 +35,11 @@ export default function Home() {
            
      
 
-   <iframe src='https://www.youtube.com/embed/qgJqE7-YEl0?&amp;autoplay=1&amp;mute=0&amp;loop=1&amp; controls=0&amp;'
+   <iframe src='https://www.youtube.com/embed/qgJqE7-YEl0?&amp;autoplay=1&amp;mute=0&amp;; controls=0&amp;'
           width="100%"
           height="100%"
           frameborder='0'
+          loop='1'
           allow='autoplay; encrypted-media'
           allowFullScreen
           title='video'
