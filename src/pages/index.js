@@ -33,12 +33,9 @@ export default function Home() {
      
       <div className={styles.slider} id="player">  
            
-      <iframe id="ytplayer" type="text/html" width="100%" height="100%"
-    src="https://www.youtube.com/embed/M7lc1UVf-VE?&amp;autoplay=1&amp;controls=0&amp;disablekb=1&amp;fs=0&amp;loop=1
-    &amp;modestbranding=1&amp;color=white&amp;iv_load_policy=3"
-              frameborder="0" allowfullscreen></iframe>
+     
 
- {/*}  <iframe src='https://www.youtube.com/embed/qgJqE7-YEl0?autoplay=1&mute=1'
+   <iframe src='https://www.youtube.com/embed/qgJqE7-YEl0?&amp;autoplay=1&amp;mute=1'
           width="100%"
           height="100%"
           frameborder='0'
@@ -46,10 +43,10 @@ export default function Home() {
           allowFullScreen
           title='video'
           modestbranding='0'>
-         
-        </iframe> */}
-         {/* <div className={styles.sliderOverlay}>
+          {/* <div className={styles.sliderOverlay}>
           </div> */}
+        </iframe> 
+        
             </div>
 
 
