@@ -38,6 +38,7 @@ export default function Home() {
    <iframe src='https://www.youtube.com/embed/qgJqE7-YEl0?&amp;autoplay=1&amp;mute=0&amp;; controls=0&amp;'
           width="100%"
           height="100%"
+          autoplay='allow'
           frameborder='0'
           loop='1'
           allow='autoplay; encrypted-media'
