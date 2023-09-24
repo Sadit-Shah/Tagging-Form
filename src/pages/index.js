@@ -35,7 +35,7 @@ export default function Home() {
            
      
 
-   <iframe src='https://www.youtube.com/embed/qgJqE7-YEl0?&amp;autoplay=1&amp;mute=1&amp;;controls=0&amp;'
+   <iframe src='https://www.youtube.com/embed/qgJqE7-YEl0?&amp;autoplay=1&amp;mute=1&amp;;controls=0&amp;modestbranding=0'
           allow='autoplay; encrypted-media'
           width="100%"
           height="100%"
