@@ -54,7 +54,7 @@ export default function Home() {
           <span className={styles.h5}>Most Popular Destinations</span>
         </div>
         <div className={styles.pdestinations}>
-          <div data-aos="fade-left" className={styles.pdcard}>
+          <div data-aos="fade-up" className={styles.pdcard}>
             <img src="images/gulmarg.jpg" alt="" width="100%" height="300px" />
             <div className={styles.desc}>
               <span>Srinagar</span>
@@ -68,7 +68,7 @@ export default function Home() {
               <input type="button" className={styles.btnknowmore} value="Know More" />
             </div>
           </div>
-          <div data-aos="fade-right" className={styles.pdcard}>
+          <div data-aos="fade-up" className={styles.pdcard}>
             <img src="images/srinagar.jpg" alt="" width="100%" height="290px" />
             <div className={styles.desc}>
               <span>Gulmarg</span>
@@ -76,7 +76,7 @@ export default function Home() {
             </div>
 
           </div>
-          <div data-aos="fade-right" className={styles.pdcard}>
+          <div data-aos="fade-up" className={styles.pdcard}>
             <img src="images/srinagar.jpg" alt="" width="100%" height="290px" />
             <div className={styles.desc}>
               <span>Sonamarg</span>
