@@ -2,7 +2,7 @@ export default function contactus() {
     return (
        <>
 
-<div className={container-contact100}>
+<div className={containercontact}>
                 <div className="wrap-contact100">
                     <form className="contact100-form validate-form">
                         <span className="contact100-form-title">
