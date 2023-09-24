@@ -88,8 +88,8 @@ export default function Home() {
         </div>
       </div>
 
-      {/* <div className={styles.abtcont}>
-        <img data-aos="fade-left" src="images/palne.jpeg" />
+      <div className={styles.abtcont}>
+        <img data-aos="fade-up" src="images/palne.jpeg" />
         <div data-aos="fade-up" className={styles.habt}>
           <div className={styles.abtitle}>
             <span>About Us</span>
@@ -109,7 +109,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
       
       <Slider />
