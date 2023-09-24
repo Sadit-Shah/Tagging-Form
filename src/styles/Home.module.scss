@@ -1,6 +1,7 @@
 @import '../styles/constants.scss';
 
 .slider {
+    pointer-events: none;
     @media (max-width:$sm) {
         height: 300px;
         padding-top: 10px;
