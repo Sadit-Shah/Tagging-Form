@@ -46,3 +46,12 @@ body {
     }
     width: 33%;
 }
+.col6{
+    @media (max-width:$sm) {
+        width: 100%;
+    }
+    width:50%;
+}
+.col12{
+    width:100%;
+}
