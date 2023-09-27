@@ -27,7 +27,7 @@ export default function Header() {
             <Link href="/" onClick={() =>setsideMenu(false)}><li>Home</li></Link>
             <Link href="/packages/packages" onClick={() =>setsideMenu(false)}><li>Packages</li></Link>
             <Link href="/" onClick={() =>setsideMenu(false)}><li>Gallery</li></Link>
-            <Link href="/contactus/contactus" onClick={() =>setsideMenu(false)}><li>Contact</li></Link>
+            <Link href="/contactus/contactus" onClick={() =>setsideMenu(false)}><li>Contact Us</li></Link>
             <Link href="/aboutus/aboutus" onClick={() =>setsideMenu(false)}><li>About Us</li></Link>
             <Link href="/" onClick={() =>setsideMenu(false)}><li>Account</li></Link>
           </ul>
