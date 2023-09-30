@@ -32,7 +32,7 @@
 
 
 .contactform{
-            padding-top: 160rem;
+            padding-top: 60rem;
             padding-bottom: 7rem;
 
             .heading{
@@ -43,9 +43,15 @@
                 }
 
             }
-            .label{
-                color: white;
-                font-size: .875rem;
+            .details{
+                color: aqua;
+
+                label{
+                    color: rgb(12, 1, 1);
+                    font-size: .875rem;
+
+                }
 
             }
+                
 }
