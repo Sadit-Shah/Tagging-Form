@@ -8,13 +8,14 @@ export default function contactus() {
 
        <div className={contactcss.contactform}>
           <div className={contactcss.heading}>
-          <h3>
-          Our support team will get back to you ASAP via email.
-          </h3>
-            <div className='subtext'>
+          <h3> Our support team will get back to you ASAP via email. </h3>
+          </div>
+            <form name='details'>
+                <label className={contactcss.label}>Name</label>
+                  <input type='text' placeholder='Enter Your Name'></input>
 
-            </div>
-        </div>
+            </form>
+      
 
 
        </div>
