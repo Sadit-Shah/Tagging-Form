@@ -2,21 +2,68 @@ import cstyle from './contactus.module.scss'
 
 export default function contactus() {
     return (
-        
-            <div className={cstyle.contact_container}>
-                    <div className={cstyle.contact_wrap}>
-                    <h3>Get in touch</h3>
-                    <form>
+        <form className={container}>
+        <h1>Get in touch</h1>
+        <div className={email}>
+          <label htmlFor="frm-email">Email</label>
+          <input
+            id="frm-email"
+            type="email"
+            name="email"
+            autoComplete="email"
+            required
+          />
+        </div>
+        <div className={phone}>
+          <label htmlFor="frm-phone">Phone</label>
+          <input
+            id="frm-phone"
+            type="text"
+            name="phone"
+            autoComplete="tel"
+            required
+          />
+        </div>
+        <div className={fname}>
+          <div>
+            <label htmlFor="frm-first">First Name</label>
+            <input
+              id="frm-first"
+              type="text"
+              name="first"
+              autoComplete="given-name"
+              required
+            />
+          </div>
+          <div>
+            <label htmlFor="frm-last">Last Name</label>
+            <input
+              id="frm-last"
+              type="text"
+              name="last"
+              autoComplete="family-name"
+              required
+            />
+          </div>
+        </div>
+        <div className={message}>
+          <label htmlFor="frm-message">Message</label>
+          <textarea id="frm-message" rows="6" name="message"></textarea>
+        </div>
+        <div className={button}>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+            
 
-                    </form>
-                    </div>
-                    <div className={cstyle.contact_info}>
-                            <div className={cstyle.dbox}>
-                                <div className={cstyle.icon}></div>
-                                <div><p>Address: 198 West 21th Street, Suite 721 New York NY 10016</p></div>
-                            </div>
-                    </div>
-            </div>
+
+
+
+
+
+
+
+       
       
     )
 }
