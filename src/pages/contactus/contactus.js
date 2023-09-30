@@ -3,16 +3,12 @@ import cstyle from './contactus.module.scss'
 export default function contactus() {
     return (
         <>
-         <div className="w-full px-4 lg:w-7/12 xl:w-8/12">
-            <div
-              className="wow fadeInUp mb-12 rounded-md bg-primary/[3%] py-11 px-8 dark:bg-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
-              data-wow-delay=".15s
-              "
-            >
-              <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
+         <div className={cntcss.contact_container}>
+            <div className={contactform} >
+              <h2 className={heading}>
                 Need Help? Open a Ticket
               </h2>
-              <p className="mb-12 text-base font-medium text-body-color">
+              <p className={subtext}>
                 Our support team will get back to you ASAP via email.
               </p>
               <form>
