@@ -4,6 +4,7 @@
         width: 100%
     }
     margin-top:100px;
+
     box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18);
     max-width:960px;
     display: flex;
@@ -27,4 +28,19 @@
             }
         }
     }
+}
+
+
+.contactform{
+            padding-top: 7rem;
+            padding-bottom: 7rem;
+
+            .heading{
+
+                h3{
+                    font-size: large;
+                    color: black;
+                }
+
+            }
 }
