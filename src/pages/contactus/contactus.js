@@ -3,6 +3,7 @@ import cstyle from './contactus.module.scss'
 export default function contactus() {
     return (
         <>
+        <div>
         <form className={container}>
         <h1>Get in touch</h1>
         <div className={email}>
@@ -55,6 +56,7 @@ export default function contactus() {
           <button type="submit">Submit</button>
         </div>
       </form>
+      </div>
             
 
 
