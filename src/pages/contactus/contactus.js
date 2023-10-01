@@ -6,22 +6,22 @@ export default function contactus() {
         <>
 
 
-       <div className={contactcss.contactform}>
-             <div className={contactcss.heading}>
-                <h3> Our support team will get back to you ASAP via email. </h3>
-             </div>
-        <div className={contactcss.details}>
-             <div className={contactcss.fname}
-                 <h2>FIRST NAME </h2>
-                  <input type='text' placeholder='Enter Your Name'></input>
-              </div>
+            <div className={contactcss.contactform}>
+                <div className={contactcss.heading}>
+                    <h3> Our support team will get back to you ASAP via email. </h3>
+                </div>
+                <div className={contactcss.details}>
+                    <div className={contactcss.fname}>
+                    <textarea text='NAME' />
+                    <input type='text' placeholder='Enter Your Name'></input>
+                </div>
 
-            
+
             </div>
-      
 
 
-       </div>
+
+        </div >
 
 
       </>
