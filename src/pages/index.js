@@ -39,7 +39,7 @@ export default function Home() {
           allow='autoplay; encrypted-media'
           width="100%"
           height="100%"
-          frameborder='0'
+          
           allowFullScreen
           title='video'
           modestbranding='0'>
