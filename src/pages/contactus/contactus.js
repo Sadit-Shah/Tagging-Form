@@ -5,7 +5,7 @@ export default function contactus() {
     return (
         <>
 
-
+        <div className={contactcss.contactcontainer}>
             <div className={contactcss.contactform}>
                 <div className={contactcss.heading}>
                     <h3> Our support team will get back to you ASAP via email. </h3>
@@ -33,7 +33,7 @@ export default function contactus() {
 
         </div >
 
-
+        </div>
       </>
 
 
