@@ -12,7 +12,7 @@ export default function contactus() {
                 </div>
                 <div className={contactcss.details}>
                     <div className={contactcss.fname}>
-                    <label>FIRST-NAME</label>
+                    <label>First Name</label>
                     <input type='text' placeholder='Enter Your Name'></input>
                 </div>
 
