@@ -13,8 +13,18 @@ export default function contactus() {
                 <div className={contactcss.details}>
                     <div className={contactcss.fname}>
                     <label>First Name</label>
-                    <input type='text' placeholder='Enter Your Name'></input>
-                </div>
+                    <input type='text' placeholder='Enter Your First Name'></input>
+                    </div>
+
+                    <div className={contactcss.fname}>
+                    <label>Middle Name</label>
+                    <input type='text' placeholder='Enter Your Middle Name'></input>
+                    </div>
+
+                    <div className={contactcss.fname}>
+                    <label>Last Name</label>
+                    <input type='text' placeholder='Enter Your Last Name'></input>
+                    </div>
 
 
             </div>
