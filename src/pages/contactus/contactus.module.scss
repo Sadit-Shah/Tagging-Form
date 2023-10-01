@@ -32,8 +32,14 @@
 
 
 .contactform{
-            padding-top: 60rem;
-            padding-bottom: 7rem;
+            
+    margin-top: 11%;
+    width: 50%;
+    border-radius: 10px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(29 33 68/var(--tw-bg-opacity));
+    padding: 15px;
+    display: flex;
 
             .heading{
 
@@ -44,12 +50,20 @@
 
             }
             .details{
-                color: aqua;
+                
 
-                label{
-                    color: rgb(12, 1, 1);
-                    font-size: .875rem;
+                .fname{
+                   
+                        h3{
+                            --tw-text-opacity: 1;
+                            color: rgb(255 255 255/var(--tw-text-opacity));
+                            font-weight: 500;
+                            font-size: 1rem;
+                        }
+                        input{
+                                padding-left: 1.5rem;
 
+                        }
                 }
 
             }

@@ -114,7 +114,7 @@ export default function Home() {
       </div>
       <div class="whatsapp">
   <a href="https://api.whatsapp.com/send?phone=+91-9906973143&text=Hello........" target="_blank">
-    <i class="fa fa-whatsapp my-float"></i>
+    <i class="fab fa-whatsapp my-float"></i>
   </a>
       </div>
       
