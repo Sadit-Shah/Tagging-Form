@@ -12,25 +12,14 @@
 
     .enqform {
 
-        padding: 0.5rem;
-        input {
-            width:95%;
-            padding-top: 0.5rem;
-            padding-bottom: 0.5rem;
-            padding-left: 0.5rem;
-            margin:5px 5px 5px 5px;
-            border-radius: 5px;
-
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 0px 0px 10px 0px;
+            border-radius: 3px;
+            border: 1px;
         }
-        textarea{
-            width: 95%;
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-            padding-left: 0.5rem;
-            margin: 5px 5px 5px 5px;
-
-        }
-
     }
     .btnsubmit{
         color: #fff;
