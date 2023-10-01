@@ -12,7 +12,7 @@ export default function contactus() {
                 </div>
                 <div className={contactcss.details}>
                     <div className={contactcss.fname}>
-                    <textarea text='NAME' />
+                    <label text='NAME' />
                     <input type='text' placeholder='Enter Your Name'></input>
                 </div>
 
