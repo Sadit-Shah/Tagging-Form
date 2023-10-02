@@ -56,7 +56,7 @@ const MainSlider = (props) => {
             margin={8}
             nav={true}
             dots={false}
-            mouseDrag={false}
+           
             {...options}
         >
             
