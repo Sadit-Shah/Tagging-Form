@@ -61,8 +61,8 @@ const MainSlider = (props) => {
         >
             
            
-            <img src="/images/ms3.jpg"  style={{maxHeight:'500px'}}/>
-            <img src="/images/ms4.jpg"  style={{maxHeight:'500px'}}/>
+            <img src="/images/ms2.jpg"  style={{maxHeight:'500px'}}/>
+          
             <img src="/images/ms5.jpg"  style={{maxHeight:'500px'}}/>
             <img src="/images/ms6.jpg" style={{maxHeight:'500px'}}/>
             <img src="/images/ms7.jpg" style={{maxHeight:'500px'}}/>
