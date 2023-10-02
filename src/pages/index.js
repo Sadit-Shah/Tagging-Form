@@ -9,7 +9,7 @@ import ReactPlayer from 'react-player'
 import Header from '@/components/header/header';
 import Trendingcard from '@/components/trendingcard/trendingcard';
 import MainSlider from '@/components/mainslider/mainslider';
-import Image from 'next/image';
+
 
 export default function Home() {
   useEffect(() => {
@@ -62,7 +62,6 @@ export default function Home() {
      
       <div data-aos="fade-up" className={styles.trendingsection}>
         <div className={styles.trendingheading}>
-          <Image src='/images/megaphone.png' width={40} height={40} alt='img'/>
           <span>Top Trending Tour Packages</span>
         </div>
         <div className={styles.trendingpackages}>
