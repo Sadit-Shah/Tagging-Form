@@ -31,6 +31,9 @@ export default function Home() {
     autoplayTimeout: 5000,
     autoplayHoverPause: true,
     responsive: {
+      300:{
+        items:1,
+      },
       600: {
         items: 1,
       },

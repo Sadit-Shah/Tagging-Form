@@ -2,10 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/aboutus/aboutus": "pages/aboutus/aboutus.html",
-  "/api/hello": "pages/api/hello.js",
-  "/contactus/contactus": "pages/contactus/contactus.html",
-  "/": "pages/index.html",
-  "/packages/packages": "pages/packages/packages.html",
-  "/404": "pages/404.html"
+  "/": "pages/index.js"
 }
