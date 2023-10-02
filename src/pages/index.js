@@ -73,7 +73,7 @@ export default function Home() {
       <div data-aos="fade-up" className={styles.pdsection}>
         <div className={styles.pdheading}>
           <span className={styles.h1}>Take a look at Our</span>
-          <span className={styles.h5}>Most Popular Destinations</span>
+          <span className={styles.h5}>Popular Locations</span>
         </div>
         <div className={styles.pdestinations}>
           <div data-aos="fade-up" className={styles.pdcard}>
