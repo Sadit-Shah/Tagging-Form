@@ -1,4 +1,12 @@
-.cardcont {   
+@import '../../styles/constants.scss';
+.cardcont {  
+    @media (max-width:$sm) {
+        width: 100%;
+    }
+
+    @media (min-width:$sm) and (max-width:$md) {
+        width: 50%;
+    }
     width:20%;
     display: flex;
     align-items: center;
