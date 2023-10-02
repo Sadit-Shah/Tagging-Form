@@ -61,11 +61,11 @@ const MainSlider = (props) => {
         >
             
            
-            <img src="/images/ms2.jpg"  style={{maxHeight:'500px',objectFit:'fill'}}/>
-            <img src="/images/n2.jpg"  style={{maxHeight:'500px',objectFit:'fill'}}/>
-            <img src="/images/ms5.jpg"  style={{maxHeight:'500px',objectFit:'fill'}}/>
-            <img src="/images/ms6.jpg" style={{maxHeight:'500px',objectFit:'fill'}}/>
-            <img src="/images/ms7.jpg" style={{maxHeight:'500px',objectFit:'fill'}}/>
+            <img src="/images/ms2.jpg"  style={{maxHeight:'500px',objectFit:'cover'}}/>
+           
+            <img src="/images/ms5.jpg"  style={{maxHeight:'500px',objectFit:'cover'}}/>
+            <img src="/images/ms6.jpg" style={{maxHeight:'500px',objectFit:'cover'}}/>
+            <img src="/images/ms7.jpg" style={{maxHeight:'500px',objectFit:'cover'}}/>
             {/* <div>
                 <img src="/images/homeslider/slider2.jpg" />
             </div>
