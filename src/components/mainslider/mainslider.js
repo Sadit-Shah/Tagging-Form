@@ -56,16 +56,16 @@ const MainSlider = (props) => {
             margin={8}
             nav={true}
             dots={false}
-           
+           mouseDrag={false}
             {...options}
         >
             
            
-            <img src="/images/ms2.jpg"  style={{maxHeight:'500px'}}/>
-          
-            <img src="/images/ms5.jpg"  style={{maxHeight:'500px'}}/>
-            <img src="/images/ms6.jpg" style={{maxHeight:'500px'}}/>
-            <img src="/images/ms7.jpg" style={{maxHeight:'500px'}}/>
+            <img src="/images/ms2.jpg"  style={{maxHeight:'500px',objectFit:'fill'}}/>
+            <img src="/images/n2.jpg"  style={{maxHeight:'500px',objectFit:'fill'}}/>
+            <img src="/images/ms5.jpg"  style={{maxHeight:'500px',objectFit:'fill'}}/>
+            <img src="/images/ms6.jpg" style={{maxHeight:'500px',objectFit:'fill'}}/>
+            <img src="/images/ms7.jpg" style={{maxHeight:'500px',objectFit:'fill'}}/>
             {/* <div>
                 <img src="/images/homeslider/slider2.jpg" />
             </div>
