@@ -28,7 +28,7 @@ export default function Layout({ children }) {
                     fontSize: '50px',
                     position: 'fixed',
                     left: '5px',
-                    bottom: '40px',
+                    bottom: '10px',
                     zIndex: 999
             }}>
                 <a href="https://api.whatsapp.com/send?phone=+91-9906973143&text=Hello........" target="_blank">

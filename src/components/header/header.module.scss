@@ -12,32 +12,33 @@
         margin-top:0px;
         background-color: #fff;
     }
-    position: absolute;
+    // position: absolute;
    
-    // position: fixed;
+    position: fixed;
     top:0;
     left:0;
     width: 100%;
-    padding: 0px 0px 10px 10px;
-    background-color: #9595952e;
+    padding: 0px 0px 0px 10px;
+    background-color: #fff;
     // background-color: #fff;
-    box-shadow: 0 1px 8px rgb(0 0 0 / 10%);
+    // box-shadow: 0 1px 8px rgb(0 0 0 / 10%);
+    box-shadow: 0 4px 8px rgb(0 0 0/14%);
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 16px;
     z-index: 999;
-    box-shadow: 0 1px 14px 0 rgb(0 0 0 / 10%);
+
     .logo {
         @media (max-width: $md) {
             padding-left: 5px;
             height: 60px;
         }
 
-        padding-left: 100px;
+        padding-left: 60px;
         display: flex;
-        width: 200px;
-        height: 100px;
+        width: 250px;
+        height: 60px;
         position: relative;
 
         .logoimg {
@@ -46,10 +47,10 @@
                 height: 50px;
             }
 
-            position: absolute;
+            // position: absolute;
             top: 10px;
-            width: 220px;
-            height: 90px;
+            width: 250px;
+            height: 60px;
         }
     }
 
@@ -115,7 +116,7 @@
                     color: #0c3c60;
                 }
 
-                padding: 30px 16px;
+                padding: 25px 16px;
                 font-weight: 700;
                // color: #fff;
                color: #004165;

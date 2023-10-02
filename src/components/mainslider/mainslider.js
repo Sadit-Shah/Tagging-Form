@@ -5,7 +5,7 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import Aos from 'aos'
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-import { fadeIn } from "@/utils/motion";
+
 
 var $ = require("jquery");
 if (typeof window !== "undefined") {
@@ -58,8 +58,8 @@ const MainSlider = (props) => {
             dots={false}
             {...options}
         >
-            <img src="/images/pahalgham.jpg" className={{height:'120px'}}/>
-            <img src="/images/slider5.jpg"  className={{height:'120px'}}/>
+            <img src="/images/pahalgham.jpg" style={{maxHeight:'500px'}}/>
+            <img src="/images/slider5.jpg"  style={{maxHeight:'500px'}}/>
 
             {/* <div>
                 <img src="/images/homeslider/slider2.jpg" />

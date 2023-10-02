@@ -9,6 +9,7 @@ import ReactPlayer from 'react-player'
 import Header from '@/components/header/header';
 import Trendingcard from '@/components/trendingcard/trendingcard';
 import MainSlider from '@/components/mainslider/mainslider';
+import Image from 'next/image';
 
 export default function Home() {
   useEffect(() => {
@@ -55,15 +56,15 @@ export default function Home() {
 
       </Head>
 
-      <div style={{ height:'120px', marginTop: '110px' }}>
+      <div style={{ marginTop: '75px' }}>
         <MainSlider options={options} />
       </div>
      
       <div data-aos="fade-up" className={styles.trendingsection}>
-        <span>
-          <i class="bi bi-megaphone"></i>
-          Top Trending Tour Packages
-        </span>
+        <div className={styles.trendingheading}>
+          <Image src='/images/megaphone.png' width={40} height={40} alt='img'/>
+          <span>Top Trending Tour Packages</span>
+        </div>
         <div className={styles.trendingpackages}>
           <Trendingcard />
         </div>
