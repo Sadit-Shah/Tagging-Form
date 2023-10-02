@@ -7,6 +7,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import ReactPlayer from 'react-player'
 import Header from '@/components/header/header';
+import Trendingcard from '@/components/trendingcard/trendingcard';
 
 
 export default function Home() {
@@ -30,25 +31,31 @@ export default function Home() {
 
 
       </Head>
-     
-      <div className={styles.slider} id="player">  
-           
-     
 
-   <iframe src='https://www.youtube.com/embed/qgJqE7-YEl0?&amp;autoplay=1&amp;mute=1&amp;;loop=1&amp;controls=0&amp;modestbranding=0'
+      <div className={styles.slider} id="player">
+
+
+
+        {/* <iframe src='https://www.youtube.com/embed/qgJqE7-YEl0?&amp;autoplay=1&amp;mute=1&amp;;loop=1&amp;controls=0&amp;modestbranding=0'
           allow='autoplay; encrypted-media'
           width="100%"
           height="100%"
-          
+
           allowFullScreen
           title='video'
-          modestbranding='0'>
-          {/* <div className={styles.sliderOverlay}>
-          </div> */}
-        </iframe> 
-        
-            </div>
+          modestbranding='0'>        
+        </iframe> */}
 
+      </div>
+      <div data-aos="fade-up" className={styles.trendingsection}>
+        <span>
+        <i class="bi bi-megaphone"></i>
+        Top Trending Tour Packages
+        </span>
+        <div className={styles.trendingpackages}>
+          <Trendingcard/>
+        </div>
+      </div>
 
       <div data-aos="fade-up" className={styles.pdsection}>
         <div className={styles.pdheading}>
@@ -112,12 +119,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div class="whatsapp">
-  <a href="https://api.whatsapp.com/send?phone=+91-9906973143&text=Hello........" target="_blank">
-    <i class="fab fa-whatsapp my-float"></i>
-  </a>
-      </div>
-      
+
+
       <Slider />
 
     </>

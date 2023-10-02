@@ -7,10 +7,12 @@ export default function Trendingcard() {
         <>
             <div className={Trendingcardcss.cardcont}>
                 <div className={Trendingcardcss.imgcont}>
-                    <Image src="/images/gulmarg.jpg" width={330} height={330} />
+                    <Image src="/images/gulmarg.jpg" width={200} height={330} />
                 </div>
                 <div className={Trendingcardcss.desc}>
-                    <a href=''> South India hill stations will welcome you warmly with cool embrace and aromatic fragrance. </a>
+                    <h5>
+                    <a href=''> South India hill Stations will welcome you warmly with cool embrace and aromatic fragrance. </a>
+                    </h5>
                 </div>
 
             </div>
