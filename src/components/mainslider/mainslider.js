@@ -5,6 +5,7 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import Aos from 'aos'
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import mainslidercss from './mainslider.module.scss'
 
 
 var $ = require("jquery");
@@ -62,11 +63,12 @@ const MainSlider = (props) => {
         >
             
            
-            <img src="/images/ms2.jpg"  style={{height:'500px',objectFit:'fill'}}/>
-            <img src="/images/ms5.jpg"  style={{height:'500px',objectFit:'fill'}}/>
-            <img src="/images/n2.jpg"  style={{height:'500px',objectFit:'fill'}}/>
-            <img src="/images/ms6.jpg" style={{height:'500px',objectFit:'fill'}}/>
-            <img src="/images/ms7.jpg" style={{height:'500px',objectFit:'fill'}}/>
+            <img src="/images/ms2.jpg" className={mainslidercss.mainslider}   />
+            <img src="/images/ms5.jpg"  className={mainslidercss.mainslider}/>
+            <img src="/images/n2.jpg"  className={mainslidercss.mainslider}/>
+            <img src="/images/ms6.jpg" className={mainslidercss.mainslider}/>
+            <img src="/images/ms7.jpg" className={mainslidercss.mainslider}/>
+           
             {/* <div>
                 <img src="/images/homeslider/slider2.jpg" />
             </div>
