@@ -8,7 +8,7 @@ import { useEffect } from 'react';
 import ReactPlayer from 'react-player'
 import Header from '@/components/header/header';
 import Trendingcard from '@/components/trendingcard/trendingcard';
-
+import MainSlider from '@/components/mainslider/mainslider';
 
 export default function Home() {
   useEffect(() => {
@@ -17,7 +17,30 @@ export default function Home() {
     });
   })
 
-
+  const options = {
+    margin: 0,
+    nav: false,
+    responsiveClass: true,
+    
+    dots: false,
+    autoplay: true,
+    animateOut:'fadeOut',
+    animateIn:'fadeIn',
+    smartSpeed: 15000,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
+    responsive: {
+      600: {
+        items: 1,
+      },
+      700: {
+        items: 1,
+      },
+      1000: {
+        items: 1,
+      },
+    },
+  };
   return (
 
     <>
@@ -32,28 +55,17 @@ export default function Home() {
 
       </Head>
 
-      <div className={styles.slider} id="player">
-
-
-
-        {/* <iframe src='https://www.youtube.com/embed/qgJqE7-YEl0?&amp;autoplay=1&amp;mute=1&amp;;loop=1&amp;controls=0&amp;modestbranding=0'
-          allow='autoplay; encrypted-media'
-          width="100%"
-          height="100%"
-
-          allowFullScreen
-          title='video'
-          modestbranding='0'>        
-        </iframe> */}
-
+      <div style={{ height:'120px', marginTop: '110px' }}>
+        <MainSlider options={options} />
       </div>
+     
       <div data-aos="fade-up" className={styles.trendingsection}>
         <span>
-        <i class="bi bi-megaphone"></i>
-        Top Trending Tour Packages
+          <i class="bi bi-megaphone"></i>
+          Top Trending Tour Packages
         </span>
         <div className={styles.trendingpackages}>
-          <Trendingcard/>
+          <Trendingcard />
         </div>
       </div>
 

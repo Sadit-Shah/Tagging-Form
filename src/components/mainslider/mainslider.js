@@ -5,6 +5,7 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import Aos from 'aos'
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import { fadeIn } from "@/utils/motion";
 
 var $ = require("jquery");
 if (typeof window !== "undefined") {
@@ -20,11 +21,11 @@ const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
 // import OwlCarousel from 'react-owl-carousel';
 
 const MainSlider = (props) => {
-    useEffect(()=>{
+    useEffect(() => {
         Aos.init({
-          duration:2000
+            duration: 5000
         });
-      })
+    })
     // const options = {
     //     margin: 0,
     //     nav:false,
@@ -46,23 +47,20 @@ const MainSlider = (props) => {
     //         },
     //     },
     // };
-    const options=props.options;
+    const options = props.options;
     return (
-        <OwlCarousel
+        <OwlCarousel 
+
             className="owl-theme"
             loop
             margin={8}
             nav={true}
             dots={false}
-            animateIn={true}
             {...options}
         >
-                        <img src="/images/pahalgham.jpg" />
-            
-               
-            
-                <img src="/images/slider5.jpg" />
-            
+            <img src="/images/pahalgham.jpg" className={{height:'120px'}}/>
+            <img src="/images/slider5.jpg"  className={{height:'120px'}}/>
+
             {/* <div>
                 <img src="/images/homeslider/slider2.jpg" />
             </div>
