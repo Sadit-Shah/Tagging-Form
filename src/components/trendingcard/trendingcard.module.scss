@@ -1,11 +1,11 @@
-.cardcont {
-    margin-top: 400px;
-    width:100%;
+.cardcont {   
+    width:20%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
+    padding: 10px;
     .imgcont {
         img{
            width:100%;

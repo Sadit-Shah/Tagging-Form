@@ -65,7 +65,11 @@ export default function Home() {
           <span>Top Trending Tour Packages</span>
         </div>
         <div className={styles.trendingpackages}>
-          <Trendingcard />
+          <Trendingcard imageSrc='/images/homeslider/slider1.jpg'/>
+          <Trendingcard imageSrc='/images/homeslider/slider3.jpg'/>
+          <Trendingcard imageSrc='/images/homeslider/slider8.jpg'/>
+          <Trendingcard imageSrc='/images/homeslider/slider10.jpg'/>
+          <Trendingcard imageSrc='/images/homeslider/slider12.png'/>
         </div>
       </div>
 

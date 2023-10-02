@@ -20,7 +20,8 @@ export default function Layout({ children }) {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'space-between',
-                color: '#fff'
+                color: '#fff',
+                zIndex:2000
             }}>
                 <Enquiry />
             </div>
@@ -29,7 +30,7 @@ export default function Layout({ children }) {
                     position: 'fixed',
                     left: '5px',
                     bottom: '10px',
-                    zIndex: 999
+                    zIndex: 2000
             }}>
                 <a href="https://api.whatsapp.com/send?phone=+91-9906973143&text=Hello........" target="_blank">
                     <i className="fab fa-whatsapp-square" style={{ color: 'limegreen' }}></i>
