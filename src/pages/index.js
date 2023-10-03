@@ -28,7 +28,7 @@ export default function Home() {
     animateOut:'fadeOut',
     animateIn:'fadeIn',
     smartSpeed: 15000,
-    autoplayTimeout: 5000,
+    autoplayTimeout: 500,
     autoplayHoverPause: true,
     responsive: {
       300:{
