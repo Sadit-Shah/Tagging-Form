@@ -24,9 +24,14 @@
     background-color: #00095E;
 }
 
+
+// TRENDING CARD SECTION
+
+
 .trendingsection {
     padding: 60px 30px 30px 30px;
     color: #00095E;
+    
 
     .trendingheading {
         display: flex;
@@ -39,6 +44,7 @@
                 font-size: 25px;
                 padding: 5px;
             }
+
             font-size: 50px;
             font-weight: 700;
             padding: 10px;
@@ -46,10 +52,14 @@
     }
 
     .trendingpackages {
+
+       
+
         display: flex;
         align-items: center;
-       // justify-content: center;
         padding: 20px;
+        // justify-content: center;
+
         .trendingcards {
             width: 18%;
         }
