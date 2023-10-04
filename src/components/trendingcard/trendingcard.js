@@ -11,7 +11,7 @@ export default function Trendingcard(props) {
                 </div>
                 <div className={Trendingcardcss.desc}>
                     <h5>
-                        <a href=''> South India hill Stations will welcome you warmly with cool embrace and aromatic fragrance. </a>
+                        <a href=''> {props.imageText} </a>
                     </h5>
                 </div>
 

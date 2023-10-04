@@ -28,7 +28,7 @@ export default function Home() {
     animateOut:'fadeOut',
     animateIn:'fadeIn',
     smartSpeed: 15000,
-    autoplayTimeout: 500,
+    autoplayTimeout: 2000,
     autoplayHoverPause: true,
     responsive: {
       300:{
@@ -68,7 +68,7 @@ export default function Home() {
           <span>Top Trending Tour Packages</span>
         </div>
         <div className={styles.trendingpackages}>
-          <Trendingcard imageSrc='/images/homeslider/slider1.jpg'/>
+          <Trendingcard imageSrc='/images/homeslider/slider1.jpg' / >
           <Trendingcard imageSrc='/images/homeslider/slider3.jpg'/>
           <Trendingcard imageSrc='/images/homeslider/slider8.jpg'/>
           <Trendingcard imageSrc='/images/homeslider/slider10.jpg'/>
