@@ -22,13 +22,13 @@ export default function Home() {
     margin: 0,
     nav: false,
     responsiveClass: true,
-    
+    lazyLoad:true,
     dots: false,
     autoplay: true,
     animateOut:'fadeOut',
     animateIn:'fadeIn',
-    smartSpeed: 15000,
-    autoplayTimeout: 2000,
+    smartSpeed:3000,
+    autoplayTimeout: 4000,
     autoplayHoverPause: true,
     responsive: {
       300:{

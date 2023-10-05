@@ -28,14 +28,13 @@ export default function Layout({ children }) {
                 <Enquiry />
             </div>
             <div className={layoutcss.whatsappComponent} style={{
-                    fontSize: '50px',
                     position: 'fixed',
                     left: '5px',
-                    bottom: '10px',
+                    bottom: '5px',
                     zIndex: 2000
             }}>
                 <a href="https://api.whatsapp.com/send?phone=+91-9906973143&text=Hello........" target="_blank">
-                    <i className="fab fa-whatsapp-square" style={{ color: 'limegreen' }}></i>
+                    <i className="fab fa-whatsapp-square" style={{ color: 'limegreen',fontSize: '50px' }}></i>
                 </a>
             </div>
         </>
