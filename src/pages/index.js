@@ -59,7 +59,7 @@ export default function Home() {
 
       </Head>
 
-      <div style={{ marginTop: '75px' }}>
+      <div style={{ marginTop: '60px' }}>
         <MainSlider options={options} />
       </div>
      
