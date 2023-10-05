@@ -19,14 +19,14 @@ export default function TabbedBar() {
   return (
 <div className={styles.tabbedBar}>
 <nav>
-  <Link href="#home" style={{ '--clr': '#f3218b' }} className={`${active[0] ? styles.active : ''}`} onClick={()=>handleActive(0)}>
+  <Link href="" style={{ '--clr': '#f3218b' }} className={`${active[0] ? styles.active : ''}`} onClick={()=>handleActive(0)}>
       <span className={styles.icon}>
       <i className="fa-solid fa-house-chimney"></i>
       </span>
       <span className={styles.text}>Home</span>
     
   </Link>
-  <Link href="#profile"  style={{ '--clr': '#008a1b' }} className={`${active[1] ? styles.active : ''}`} onClick={()=>handleActive(1)}>
+  <Link href=""  style={{ '--clr': '#008a1b' }} className={`${active[1] ? styles.active : ''}`} onClick={()=>handleActive(1)}>
       <span className={styles.icon}>
       <i class="fa-brands fa-whatsapp"></i>
       </span>
@@ -34,7 +34,7 @@ export default function TabbedBar() {
     
   </Link>
 
-  <Link href="#settings" style={{ '--clr': '#df6f1d' }} className={`${active[4] ? styles.active : ''}`} onClick={()=>handleActive(4)}>
+  <Link href="" style={{ '--clr': '#df6f1d' }} className={`${active[4] ? styles.active : ''}`} onClick={()=>handleActive(4)}>
       <span className={styles.icon}>
       <i className="fa-solid fa-gear"></i>
       </span>
