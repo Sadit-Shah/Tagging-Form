@@ -3,13 +3,20 @@
     max-height: 20px;
     background-color: rgba(79, 158, 248, .1);
     transition: max-height 1s;
-    
-    h3 {
 
+    .heading {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         padding: 0px 0px 10px 0px;
-        color: #fff;
-        text-align: center;
+        cursor: pointer;
+        h3 {
+            color: #fff;
+        }
+
+        
     }
+
 
     .enqform {
 
@@ -22,23 +29,26 @@
             border: 1px;
         }
     }
-    .btnsubmit{
+
+    .btnsubmit {
         color: #fff;
         background-color: #d6293e;
         border-color: #d6293e;
-        width:100%;
+        width: 100%;
         border: 1px solid transparent;
         padding: 0.5rem 1rem;
         font-size: .9375rem;
         border-radius: 0.25rem;
         cursor: pointer;
     }
-    .btnsubmit:hover{
+
+    .btnsubmit:hover {
         color: #fff;
         background-color: #b62335;
-        border-color: #ab2132; 
+        border-color: #ab2132;
     }
 }
-.active{
+
+.active {
     max-height: 480px;
 }

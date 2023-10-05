@@ -11,7 +11,10 @@ export default function Enquiry() {
         <>
 
             <div className={`${enquiryFormCSS.enqContainer} ${quickEnquiry ?enquiryFormCSS.active:''}`}>
-                <h3 onClick={handleenquiryWindow}>Quick Enquiry</h3>
+                <div className={enquiryFormCSS.heading} onClick={handleenquiryWindow}>
+                <h3>Quick Enquiry</h3>
+                <i className={`${quickEnquiry ?'fa-regular fa-circle-xmark' :'fa-solid fa-arrow-up'}`}></i>
+                </div>
                 <div className={enquiryFormCSS.enqform}>
                     <form>
                         <input placeholder="Full Name*" />

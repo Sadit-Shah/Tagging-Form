@@ -17,7 +17,10 @@
 }
 .tabbedBar nav{
     display: flex;
-    width: 350px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 210px;
 }
 .tabbedBar nav a{
     position: relative;
@@ -65,9 +68,10 @@
 }
 .indicator{
     position: absolute;
-    top: -35px;
+    top: -30px;
     width: 70px;
     height: 70px;
+    left: 0px;
     background: #fff;
     border-radius: 50%;
     transition: 0.5s;
