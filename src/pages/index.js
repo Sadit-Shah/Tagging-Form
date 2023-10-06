@@ -68,11 +68,12 @@ export default function Home() {
           <span>Top Trending Tour Packages</span>
         </div>
         <div className={styles.trendingpackages}>
-          <Trendingcard imageSrc='/images/homeslider/slider1.jpg' / >
-          <Trendingcard imageSrc='/images/homeslider/slider3.jpg'/>
-          <Trendingcard imageSrc='/images/homeslider/slider8.jpg'/>
-          <Trendingcard imageSrc='/images/homeslider/slider10.jpg'/>
-          <Trendingcard imageSrc='/images/homeslider/slider12.png'/>
+          <Trendingcard imageSrc='/images/homeslider/slider1.jpg'  imageDesc='Classic Kashmir - Family Tours'/>
+          <Trendingcard imageSrc='/images/homeslider/slider3.jpg'  imageDesc='Facinating Kashmir-Winter Special'/>
+          <Trendingcard imageSrc='/images/homeslider/slider8.jpg'  imageDesc='Kashmir Magic Moments-Honeymoon Special'/>
+          <Trendingcard imageSrc='/images/homeslider/slider10.jpg' imageDesc='Exotic Kashmir - Cool Embrace & Aromatic Fragnance '/>
+          <Trendingcard imageSrc='/images/homeslider/slider12.png' imageDesc='Kashmir Discover tours-Fusion Tours'/>
+          
         </div>
       </div>
 
