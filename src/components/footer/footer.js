@@ -30,29 +30,28 @@ export default function Footer() {
                             <ul id="menu-tours" className={footercss.footmenu}>
                                 <li id="menu-item-972"
                                     className="menu-item menu-item-type-post_type menu-item-object-skt_tours menu-item-972">
-                                    <a href="https://sktperfectdemo.com/demos/adventure/tour/mountain-climbing-tour/">Mountain Climbing
-                                        Tour</a>
+                                    <a href="">Classic Kashmir - Family Tours</a>
                                 </li>
                                 <li id="menu-item-970"
                                     className="menu-item menu-item-type-post_type menu-item-object-skt_tours menu-item-970">
-                                    <a href="https://sktperfectdemo.com/demos/adventure/tour/mountain-biking-trip/">Mountain Biking Trip</a>
+                                    <a href="">Facinating Kashmir-Winter Special</a>
                                 </li>
                                 <li id="menu-item-974"
                                     className="menu-item menu-item-type-post_type menu-item-object-skt_tours menu-item-974">
-                                    <a href="https://sktperfectdemo.com/demos/adventure/tour/mountain-hiking-tour/">Mountain Hiking Tour</a>
+                                    <a href="">Kashmir Magic Moments-Honeymoon Special</a>
                                 </li>
                                 <li id="menu-item-973"
                                     className="menu-item menu-item-type-post_type menu-item-object-skt_tours menu-item-973">
-                                    <a href="https://sktperfectdemo.com/demos/adventure/tour/wildlife-adventure/">Wildlife Adventure</a>
+                                    <a href="">Exotic Kashmir - Cool Embrace & Aromatic Fragnance</a>
                                 </li>
                                 <li id="menu-item-971"
                                     className="menu-item menu-item-type-post_type menu-item-object-skt_tours menu-item-971">
-                                    <a href="https://sktperfectdemo.com/demos/adventure/tour/polar-tour/">Polar Tour</a>
+                                    <a href="">Kashmir Discover tours-Fusion Tours</a>
                                 </li>
-                                <li id="menu-item-975"
+                                {/* <li id="menu-item-975"
                                     className="menu-item menu-item-type-post_type menu-item-object-skt_tours menu-item-975">
                                     <a href="https://sktperfectdemo.com/demos/adventure/tour/yatch-sailing-tour/">Yatch Sailing Tour</a>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>
