@@ -18,7 +18,7 @@ export default function Trendingcard(props) {
                 </div>
                 <div className={Trendingcardcss.desc}>
                     <h5>
-                        <a href=''> {props.imageDesc} </a>
+                        <a href='/packages/packages'> {props.imageDesc} </a>
                     </h5>
                 </div>
 
