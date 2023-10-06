@@ -15,9 +15,9 @@ export default function Footer() {
                 <div className={footercss.footerinfo}>
                     <span data-aos="fade-up">Open Sky Trips</span>
                     <div data-aos="fade-up" className={footercss.socialicons}>
-                        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" className="fab fa-facebook fa-1x" title="facebook"></a>
+                        <a href="https://www.facebook.com/opensky.trips/" target="_blank" rel="noreferrer" className="fab fa-facebook fa-1x" title="facebook"></a>
                         <a href="https://twitter.com/" target="_blank" rel="noreferrer" className="fab fa-twitter fa-1x" title="twitter"></a>
-                        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" className="fab fa-instagram fa-1x" title="instagram"></a>
+                        <a href="https://instagram.com/openskytrips?igshid=MzMyNGUyNmU2YQ==" target="_blank" rel="noreferrer" className="fab fa-instagram fa-1x" title="instagram"></a>
                         <a href="https://www.youtube.com/" target="_blank" rel="noreferrer" className="fab fa-youtube fa-1x" title="youtube"></a>
                         <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" className="fab fa-linkedin fa-1x" title="linkedin"></a>
                     </div>
@@ -81,7 +81,7 @@ export default function Footer() {
                         <p >Ellahibagh,<br />Hazratbal road,<br />Srinagar-190020 </p>
                         <div className={footercss.spacecode} id="" style={{ height: "10px" }}></div>
                         <p style={{ marginBottom: "10px" }}>
-                            <span style={{ marginRight: "20px" }}>Phone:</span> +91-9958299984,9958299985 </p>
+                            <span style={{ marginRight: "20px" }}>Phone:</span> +91 - 9958299984/9958299985 </p>
                         <p style={{ marginBottom: "10px" }}>
                             <span style={{ marginRight: "21px" }}>E-mail:</span>Openskytrips@gmail.com</p>
                         <p style={{ marginBottom: "21px" }}>
@@ -91,7 +91,7 @@ export default function Footer() {
 
                 <div className={footercss.copyright}>
                     <span>© Copyright 2023 Openskytrips. All Rights Reserved</span>
-                    {/* <span>Design by MS Software Solutions</span> */}
+                    <span>Design by SSMS Software Solutions</span>
                 </div>
 
             </div>
