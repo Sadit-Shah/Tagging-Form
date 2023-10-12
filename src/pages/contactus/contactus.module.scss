@@ -6,16 +6,38 @@
     width: 100%;
     display: flex;
 
-    .address {
+    .details {
 
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: url('../../../public/images/imgbgcontact.avif');
+        background-image: url('../../../public/images/imgbgcontact01.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         width: 50%;
+
+        .icon {
+            width: 10%;
+            color: #fff;
+            font-size: 30px;
+        }
+
+        .address {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: #fff;
+            font-size: 35px;
+            font-weight: 600;
+            .subtext{
+
+                color: #fff;
+                font-size: 10px;
+                
+            }
+        }
     }
 
 
