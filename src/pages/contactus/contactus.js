@@ -15,7 +15,7 @@ export default function contactus() {
                             <span style={{ fontSize: '20px' }}>+91-9906973143</span></span>
                     </div>
                     <div className={contactcss.icon}>
-                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
                         <span style={{ fontSize: '30px' }}>General Support<br />
                             <span style={{ fontSize: '20px' }}>openskytrips@gmail.com</span></span>
                     </div>
