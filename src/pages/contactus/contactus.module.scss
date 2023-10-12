@@ -1,142 +1,114 @@
 @import '../../styles/constants.scss';
 
-.contactcont{
-        padding-top: 100px;
-        width: 100%;
-        .address{
-               
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                background-color: aqua;
+.contactcont {
+
+    padding: 100px 30px 30px 30px;
+    width: 100%;
+    display: flex;
+
+    .address {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url('../../../public/images/imgbgcontact.avif');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 50%;
+    }
+
+
+    .form {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 56px 55px 63px;
+        width: 50%;
+
+        .title {
+            width: 100%;
+            display: block;
+            font-size: 30px;
+            color: #333;
+            text-align: center;
+            padding-bottom: 33px;
+        }
+
+        label {
+            font-size: 12px;
+            color: #555;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            border: 1px solid #e6e6e6;
+            padding: 10px 25px;
+            margin-top: 15px;
+        }
+
+        .name {
+            width: 100%;
+
+            .textbox {
                 width: 50%;
-                span{   
-                    display: flex;
-                    justify-content: space-between;
-                i{
-                    color: #fff;
-                }
+                font-size: 18px;
+                color: #666;
+                padding: 0px 25px;
+                height: 55px;
+                border: 1px solid #6666;
             }
         }
 
+        .email {
+            width: 100%;
 
+            .textbox {
+                width: 100%;
+                font-size: 18px;
+                color: #666;
+                padding: 0px 25px;
+                height: 55px;
+                border: 1px solid #6666;
+            }
+
+        }
+
+        .message {
+            width: 100%;
+
+            .msg {
+                width: 100%;
+                font-size: 18px;
+                color: #666;
+                padding: 0px 25px;
+                height: 150px;
+                border: 1px solid #6666;
+
+            }
+        }
+
+        .button {
+            input {
+                background-color: #FFC800;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                padding: 5px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                width: 200px;
+                height: 50px;
+                font-weight: bold;
+
+            }
+
+            :hover {
+                background-color: #3126a6;
+                color: #fff;
+            }
+        }
+
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// .contact_container {
-//     @media (max-width:$sm) {
-//         width: 100%
-//     }
-//     margin-top:100px;
-
-//     box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18);
-//     max-width:960px;
-//     display: flex;
-//     align-items:center;
-//     justify-content: center;
-//     .contact_wrap{
-//         padding:20px;
-//     }
-//     .contact_info{
-//         padding:20px;
-//         display:flex;
-//         flex-direction:column;
-//         .dbox{
-//             width:100%;
-//             display:flex;
-//             flex-direction:row;
-//             .icon{
-//                 display:flex;
-//                 align-items:center;
-//                 justify-content: center;
-//             }
-//         }
-//     }
-// }
-
-// .contactcontainer{
-//     width:100%;
-
-// .contactform{
-            
-//     margin-top: 11%;
-//     width: 70%;
-//     border-radius: 10px;
-//     --tw-bg-opacity: 1;
-//     background-color: rgb(29 33 68/var(--tw-bg-opacity));
-//     padding: 15px;
-    
-
-//             .heading{
-//                 margin-bottom: 1rem;
-
-//                 h3{
-//                     font-size: large;
-//                     color: whitesmoke;
-//                 }
-
-//             }
-//             .details{
-                
-//                     display:flex ;
-//                 .fname{
-                    
-//                    display: table-caption;
-//                         label{
-//                             --tw-text-opacity: 1;
-//                             color: rgb(255 255 255/var(--tw-text-opacity));
-//                             font-weight: 600;
-//                             font-size: 1rem;
-//                         }
-//                         input{
-//                                 padding-left: 10px;
-//                                 margin: 10px;
-//                                 padding-top: 0.75rem;
-//                                 padding-bottom: 0.75rem;
-//                                 --tw-text-opacity: 1;
-//                                 color: rgb(255 255 255/var(--tw-text-opacity));
-//                                 background-color: transparent;
-                                
-
-//                         }
-//                 }
-
-//             }
-                
-// }
-// }
