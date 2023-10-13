@@ -6,41 +6,6 @@
     width: 100%;
     display: flex;
 
-        .left{
-            display: flex;
-            
-            align-items: center;
-            justify-content: center;
-            background-image: url('../../../public/images/imgbgcontact01.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            width: 50%;
-                .ic{
-                    display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-                    i{
-                        
-                        color: #fff;
-                        font-size: 20px;
-                        padding-bottom: 50px;
-                        padding-right: 23px;
-
-                    }
-                    
-                    
-                }
-                .right{
-                    display: flex;
-                    flex-direction: column;
-                    padding: 30px;
-                    color: #fff;
-                    font-size: 20px;
-                    padding-bottom: 50px;
-                }
-        }
 
 
     .details {
@@ -123,8 +88,8 @@
                 width: 50%;
                 font-size: 18px;
                 color: #666;
-                padding: 0px 25px;
-                height: 55px;
+                padding: 10px 25px;
+                //height: 55px;
                 border: 1px solid #6666;
             }
         }
@@ -136,8 +101,8 @@
                 width: 100%;
                 font-size: 18px;
                 color: #666;
-                padding: 0px 25px;
-                height: 55px;
+                padding: 10px 25px;
+                //height: 55px;
                 border: 1px solid #6666;
             }
 

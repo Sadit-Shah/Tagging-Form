@@ -1,0 +1,63 @@
+@import '../../styles/constants.scss';
+
+.itenarycont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 15px;
+    background-color:#f2f2f2;
+
+    .slider{
+      
+    }
+
+    .overview{
+        font-size: 18px;
+        color: #3126a6;
+        font-weight: 700;
+
+        p{
+            font-size: 14px;
+            margin: 10px 0 10px 0;
+            font-weight: 400;
+            color: #333;
+
+        }
+    }
+
+    h3 {
+        font-size: 18px;
+        color: #3126a6;
+        font-weight: 700;
+    }
+
+    .dayinfo {
+        background-color: #b9b9b9;
+        color: #333;
+        margin-bottom: 12px;
+        margin-top: 12px;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 700;
+
+        span {
+            background-color: #746ae6;
+            display: inline-block;
+            color: #fff;
+            padding: 8px 16px;
+            text-align: center;
+            position: relative;
+            margin-right: 12px;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+       
+    }
+    p{
+        font-size: 14px;
+        margin: 10px 0 10px 0;
+        font-weight: 400;
+    }
+
+}
