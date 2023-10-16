@@ -7,16 +7,13 @@ export default function Itenary() {
 
 
             <div className={itenarycss.itenarycont}>
-                <div className={itenarycss.slider}>
-                    <MainSlider />
-                </div>
+
+
                 <div className={itenarycss.overview}>
                     <h3>Overview</h3>
                     <p> Kashmir is essentially earth's version of heaven. The beauty of this location is beyond describing it. You must personally experience it to believe it. Visits to unusual and lovely Kashmiri tourist destinations such as Srinagar, Gurez, and Tulail are included in our 5-night, 6-day beautiful Gurez Valley tour package.</p>
 
                 </div>
-
-
 
                 <h3>Recommended Itinerary</h3>
                 <div className={itenarycss.dayinfo}>
@@ -40,9 +37,36 @@ export default function Itenary() {
 
                 <div className={itenarycss.dayinfo}>
                     <span>Day 04</span>
-                    06Srinagar Departure
+                    Srinagar Departure
                 </div>
                 <p>Drive to the airport in Srinagar after breakfast to catch a flight back home. </p>
+
+
+                <div className={itenarycss.incluexclu}>
+                    <h4> What's Included</h4>
+                    <ul>
+
+                        <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>    Breakfast and dinner at all hotels</li>
+                        <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>    All sightseeing at all places</li>
+                        <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>    Transportation as per itinerary</li>
+                        <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>    Arrival assistance</li>
+                        <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>    Driver’s expense, parking, toll</li>
+                        <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>    Hotel Taxes</li>
+
+                    </ul>
+
+                    <h4> What's Excluded</h4>
+                    <ul>
+
+                        <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>    Breakfast and dinner at all hotels</li>
+                        <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>    All sightseeing at all places</li>
+                        <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>    Transportation as per itinerary</li>
+                        <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>    Arrival assistance</li>
+                        <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>    Driver’s expense, parking, toll</li>
+                        <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>    Hotel Taxes</li>
+
+                    </ul>
+                </div>
 
             </div>
         </>
