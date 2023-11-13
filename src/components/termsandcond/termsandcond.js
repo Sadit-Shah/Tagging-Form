@@ -67,7 +67,7 @@ export default function Termsandcond() {
                     <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>If you wish to visit these places. You have to pay extra directly.   </li>
                     <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>For Shopping: - Dry Fruits / Rajma / Basmati Rice / Handicraft / Woolens / Carpets/ Saffron / Cricket Bats Srinagar:- Lal Chowk / Boulevard  </li>
                     <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>For Kashmiri Wazwan Food:- Aadhoos at Lal Chowk Srinagar is the best place and Mutton Kebab at Gee Enn Bakers - Residency Road.    </li>
-                    <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>For Vegetarian Food in Srinagar:- Krishna Dhaba is the best place. 9.) One day one destination will be covered   </li>
+                    <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>For Vegetarian Food in Srinagar:- Krishna Dhaba is the best place. One day one destination will be covered   </li>
                 </ul>
             </div>
         </div>
