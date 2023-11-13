@@ -95,6 +95,10 @@
             @media (min-width:$sm) and (max-width:$md) {        
                 font-size: 3em;   
             }
+            @media (min-width:$md) and (max-width:$lg) {        
+                font-size: 4em;   
+            }
+          
 
 
         }
