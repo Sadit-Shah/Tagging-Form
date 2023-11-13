@@ -31,6 +31,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/contactus/contactus.js"
+    ],
+    "/packages/packages": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/packages/packages.js"
     ]
   },
   "ampFirstPages": []
