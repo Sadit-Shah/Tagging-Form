@@ -2,9 +2,10 @@ import termscss from './termsandcond.module.scss'
 export default function Termsandcond() {
     return (
         <div className={termscss.container}>
-            <h3>
-                TERMS AND CONDITIONS
-            </h3>
+            <div className={termscss.content}>
+                <h2>Terms and Conditions</h2>
+                <h2>Terms and Conditions</h2>
+            </div>
             <div className={termscss.heading}>
                 <span>
                     CANCELLATION POLICY
@@ -33,10 +34,7 @@ export default function Termsandcond() {
                     <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i> As Per the Airline's Cancellation Policy.
                     </li>
                 </ul>
-
             </div>
-
-
             <div className={termscss.heading}>
                 <span>
                     LAND PACKAGE  CANCELLATION POLICY
@@ -44,22 +42,14 @@ export default function Termsandcond() {
             </div>
             <div className={termscss.lists}>
                 <ul>
-
                     <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>Processing fee: 13% of the total package cost will be charged regardless of any reason if you choose to cancel your trip post booking.</li>
                     <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>Between 45 days to 60 days from the trip start date: 25% of total package cost will be deducted as cancellation charge.</li>
                     <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>Between 44 to 31 days from the trip start date: 50% of total package cost will be deducted from the total package amount.</li>
                     <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>Between 30 to 21 days from the trip start date: 60% of total package cost will be deducted from the total package amount.</li>
                     <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>Between 20 and 14 days from the trip start date: 75% of total package cost will be deducted from the total package amount.</li>
                     <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>In case of no-show, booking stands non-refundable.</li>
-
-
-
                 </ul>
-
-
             </div>
-
-
             <div className={termscss.heading}>
                 <span>
                     ADDITIONAL INFORMATION
@@ -67,7 +57,6 @@ export default function Termsandcond() {
             </div>
             <div className={termscss.lists}>
                 <ul>
-
                     <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>Pre-paid sim cards don’t work in J&K due to security reasons, postpaid connection is a must.</li>
                     <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>In Katra for Pithu / Palki / Pony services Municipal Committee Katra has fixed the rates and they are displayed on the rate card outside their booking office at Banganga.
                         If someone is over charging above the listed rates it’s up to you how hard you can bargain.</li>
@@ -79,17 +68,8 @@ export default function Termsandcond() {
                     <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>For Shopping: - Dry Fruits / Rajma / Basmati Rice / Handicraft / Woolens / Carpets/ Saffron / Cricket Bats Srinagar:- Lal Chowk / Boulevard  </li>
                     <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>For Kashmiri Wazwan Food:- Aadhoos at Lal Chowk Srinagar is the best place and Mutton Kebab at Gee Enn Bakers - Residency Road.    </li>
                     <li><i class="fa-solid fa-arrow-right fa-beat-fade fa-2xl"></i>For Vegetarian Food in Srinagar:- Krishna Dhaba is the best place. 9.) One day one destination will be covered   </li>
-
-
                 </ul>
-
-
             </div>
-
-
-
-
-
         </div>
     )
 }
